@@ -1,0 +1,32 @@
+
+@keyframes Load {
+    0%{
+        transform: scale(1);
+        opacity: 500;
+    }
+    50%{
+         transform: scale(0.6);
+        opacity: 100;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 10; 
+    }
+}
+.outer{
+
+    animation: Load 2s ease-in-out infinite;
+}
+
+.inner-1{
+opacity: 50;
+   
+}
+.inner-2{
+opacity: 50;
+    
+}
+.inner-3{
+opacity: 50;
+   
+}
